@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ronaldo | Développeur Full Stack Coding</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- CUSTOM CURSOR -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- PRELOADER -->
+   <!-- PRELOADER CORRIGÉ -->
+<div class="preloader">
+    <div class="preloader-content">
+        <div class="loader-bar">
+            <div class="loader-progress"></div>
+        </div>
+        <p class="loader-text">Chargement de l'expérience...</p>
+        <p class="loader-percentage">NexusPuce</p>
+    </div>
+</div>
+
+    <!-- NAVIGATION -->
+    <nav class="navbar">
+        <div class="logo">
+            <span class="logo-bracket">&lt;</span>
+            NexusPuce
+            <span class="logo-bracket">/&gt;</span>
+        </div>
+        <ul class="nav-menu">
+            <li><a href="#home" class="nav-link"> Accueil</a></li>
+            <li><a href="#about" class="nav-link"> À propos</a></li>
+            <li><a href="#projets" class="nav-link">Projets</a></li>
+            <li><a href="#contact" class="nav-link"> Contact</a></li>
+        </ul>
+        <div class="burger">
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="gradient-sphere gradient-sphere-1"></div>
+            <div class="gradient-sphere gradient-sphere-2"></div>
+            <div class="gradient-sphere gradient-sphere-3"></div>
+        </div>
+        
+        <div class="hero-content">
+            <div class="hero-text">
+                <p class="hero-greeting">Bonjour, je suis</p>
+                <h1 class="hero-title">
+                    <span class="title-line">
+                        <span class="title-word">Créateur</span>
+                    </span>
+                    <span class="title-line">
+                        <span class="title-word">d'Expériences</span>
+                    </span>
+                    <span class="title-line">
+                        <span class="title-word gradient-text">Digitales</span>
+                    </span>
+                </h1>
+                <p class="hero-subtitle">
+                    <span class="typing-text"></span>
+                </p>
+                <div class="hero-cta">
+                    <a href="#projets" class="btn-primary magnetic">
+                        <span>Découvrir mes projets</span>
+                        <svg class="btn-arrow" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </a>
+                    <a href="#contact" class="btn-outline magnetic">
+                        <span>Travaillons ensemble</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- SCROLL INDICATOR -->
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <p>Scroll</p>
+        </div>
+
+        <!-- FLOATING ELEMENTS -->
+        <div class="floating-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+        </div>
+    </section>
+
+    <!-- MARQUEE SECTION -->
+    <div class="marquee-section">
+        <div class="marquee">
+            <div class="marquee-content">
+                 <span>Coding(HTML;CSS;JS;PHP)</span>
+                <span class="dot">•</span>
+                <span>WordPress</span>
+                <span class="dot">•</span>
+                <span>React</span>
+                <span class="dot">•</span>
+                <span>Node.js</span>
+                <span class="dot">•</span>
+                <span>Design UI/UX</span>
+                <span class="dot">•</span>
+                <span>E-commerce</span>
+                <span class="dot">•</span>
+                <span>SEO</span>
+                <span class="dot">•</span>
+            </div>
+            <div class="marquee-content" aria-hidden="true">
+                 <span>Coding(HTML;CSS;JS;PHP)</span>
+                <span class="dot">•</span>
+                <span>WordPress</span>
+                <span class="dot">•</span>
+                <span>React</span>
+                <span class="dot">•</span>
+                <span>Node.js</span>
+                <span class="dot">•</span>
+                <span>Design UI/UX</span>
+                <span class="dot">•</span>
+                <span>E-commerce</span>
+                <span class="dot">•</span>
+                <span>SEO</span>
+                <span class="dot">•</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-number">01.</span>
+                <h2 class="section-title">À propos de moi</h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-image reveal-image">
+                    <div class="image-wrapper">
+                       <img src="me.jpeg" alt="Photo" class="parallax-image">
+                       <div class="image-overlay"></div>
+                        
+                    </div>
+                    <div class="image-decoration"></div>
+                </div>
+
+                <div class="about-content">
+                    <div class="reveal">
+                        <p class="lead">
+                            Développeur <span class="highlight">Full Stack</span> passionné avec 
+                            <span class="highlight">+3 ans d'expérience</span>, je transforme 
+                            des concepts en expériences web mémorables.
+                        </p>
+                    </div>
+                    
+                    <div class="reveal">
+                        <p>
+                            Spécialisé dans la création de sites WordPress sur mesure, 
+                            je combine créativité et code pour donner vie à des projets 
+                            qui dépassent les attentes. J'aime le bon design.
+                        </p>
+                    </div>
+
+                    <div class="skills-grid reveal">
+                        <div class="skill-item">
+                            <div class="skill-icon">💻</div>
+                            <h4>Développement</h4>
+                            <p>WordPress, React, PHP, JavaScript, SQL</p>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">🎨</div>
+                            <h4>Design</h4>
+                            <p>UI/UX, Figma, Webflow</p>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">⚡</div>
+                            <h4>Performance</h4>
+                            <p>SEO, Optimisation, Analytics</p>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">🚀</div>
+                            <h4>E-commerce</h4>
+                            <p>WooCommerce, Shopify</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- STATS SECTION -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item reveal">
+                    <h3 class="stat-number" data-target="15">0</h3>
+                    <p>Projets réalisés</p>
+                </div>
+                <div class="stat-item reveal">
+                    <h3 class="stat-number" data-target="10">0</h3>
+                    <p>Clients satisfaits</p>
+                </div>
+                <div class="stat-item reveal">
+                    <h3 class="stat-number" data-target="3">0</h3>
+                    <p>Années d'expérience</p>
+                </div>
+                <div class="stat-item reveal">
+                    <h3 class="stat-number" data-target="99">0</h3>
+                    <p>% de satisfaction</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJETS SECTION -->
+    <!-- SECTION PROJETS URGENTS -->
+<section id="projets" class="projets-urgent">
+    <div class="container">
+        <div class="section-header" data-aos="fade-up">
+            <span class="section-number">02.</span>
+            <h2 class="section-title">Projets Récents</h2>
+            <div class="section-line"></div>
+        </div>
+
+        <!-- PROJET 1 : E-COMMERCE -->
+        <article class="projet-card featured" data-aos="fade-up">
+            <div class="projet-visual">
+                <div class="projet-image-wrapper">
+                    <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=1200&h=800&fit=crop" alt="Luxe Horizon">
+                    <div class="projet-gradient"></div>
+                </div>
+                <div class="projet-number">01</div>
+            </div>
+            
+            <div class="projet-content">
+                <div class="projet-meta">
+                    <span class="projet-category">E-commerce</span>
+                    <span class="projet-year">2024</span>
+                </div>
+                
+                <h3 class="projet-title">Luxe Horizon</h3>
+                <p class="projet-excerpt">
+                    Boutique en ligne premium pour montres de luxe avec système 
+                    de réservation en temps réel, paiement sécurisé Stripe, 
+                    et expérience d'achat immersive.
+                </p>
+                
+                <div class="projet-results">
+                    <div class="result-item">
+                        <span class="result-value">+60%</span>
+                        <span class="result-label">Conversions</span>
+                    </div>
+                    <div class="result-item">
+                        <span class="result-value">2.1s</span>
+                        <span class="result-label">Chargement</span>
+                    </div>
+                    <div class="result-item">
+                        <span class="result-value">98/100</span>
+                        <span class="result-label">Performance</span>
+                    </div>
+                </div>
+                
+                <div class="projet-tech">
+                    <span class="tech-tag">WooCommerce</span>
+                    <span class="tech-tag">Stripe</span>
+                    <span class="tech-tag">Elementor Pro</span>
+                    <span class="tech-tag">GSAP</span>
+                </div>
+                
+                <a href="#" class="projet-cta">
+                    Voir le cas complet
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M7 17L17 7M17 7H7M17 7V17" stroke="currentColor" stroke-width="2"/>
+                    </svg>
+                </a>
+            </div>
+        </article>
+
+        <!-- PROJET 2 : SAAS -->
+        <article class="projet-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="projet-visual">
+                <div class="projet-image-wrapper">
+                    <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?w=1200&h=800&fit=crop" alt="CloudSync">
+                    <div class="projet-gradient"></div>
+                </div>
+                <div class="projet-number">02</div>
+            </div>
+            
+            <div class="projet-content">
+                <div class="projet-meta">
+                    <span class="projet-category">SaaS / Web App</span>
+                    <span class="projet-year">2024</span>
+                </div>
+                
+                <h3 class="projet-title">CloudSync Platform</h3>
+                <p class="projet-excerpt">
+                    Plateforme SaaS complète de gestion d'entreprise avec 
+                    tableau de bord en temps réel, API RESTful, et système 
+                    de notifications push.
+                </p>
+                
+                <div class="projet-results">
+                    <div class="result-item">
+                        <span class="result-value">100+</span>
+                        <span class="result-label">Utilisateurs</span>
+                    </div>
+                    <div class="result-item">
+                        <span class="result-value">99.9%</span>
+                        <span class="result-label">Uptime</span>
+                    </div>
+                </div>
+                
+                <div class="projet-tech">
+                    <span class="tech-tag">React</span>
+                    <span class="tech-tag">Node.js</span>
+                    <span class="tech-tag">WordPress REST API</span>
+                    <span class="tech-tag">MongoDB</span>
+                </div>
+                
+                <a href="#" class="projet-cta">
+                    Privé
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M7 17L17 7M17 7H7M17 7V17" stroke="currentColor" stroke-width="2"/>
+                    </svg>
+                </a>
+            </div>
+        </article>
+
+        <!-- PROJET 3 : CORPORATE -->
+        <article class="projet-card" data-aos="fade-up" data-aos-delay="200">
+            <div class="projet-visual">
+                <div class="projet-image-wrapper">
+                    <img src="https://www.framer.com/creators-assets/_next/image/?url=https%3A%2F%2Fy4pdgnepgswqffpt.public.blob.vercel-storage.com%2Ftemplates%2F49567%2Fconsultant-0ZtbrgwiJQeqjeyufp7My7asK2C3B7&w=3840&q=100" alt="Apex Consulting">
+                    <div class="projet-gradient"></div>
+                </div>
+                <div class="projet-number">03</div>
+            </div>
+            
+            <div class="projet-content">
+                <div class="projet-meta">
+                    <span class="projet-category">Corporate</span>
+                    <span class="projet-year">2025</span>
+                </div>
+                
+                <h3 class="projet-title">Apex Consulting</h3>
+                <p class="projet-excerpt">
+                    Apps institutionnel multilingue pour cabinet d'audit 
+                    international avec générateur de devis automatique et 
+                    espace client sécurisé.
+                </p>
+                
+                <div class="projet-results">
+                    <div class="result-item">
+                        <span class="result-value">-50%</span>
+                        <span class="result-label">Coûts admin</span>
+                    </div>
+                    <div class="result-item">
+                        <span class="result-value">2</span>
+                        <span class="result-label">Langues</span>
+                    </div>
+                </div>
+                
+                <div class="projet-tech">
+                    <span class="tech-tag">WordPress Multisite</span>
+                    <span class="tech-tag">WPML</span>
+                    <span class="tech-tag">Gravity Forms</span>
+                    <span class="tech-tag">ACF Pro</span>
+                </div>
+                
+                <a href="#" class="projet-cta">
+                    Privé
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M7 17L17 7M17 7H7M17 7V17" stroke="currentColor" stroke-width="2"/>
+                    </svg>
+                </a>
+            </div>
+        </article>
+
+
+
+<article class="projet-card" data-aos="fade-up" data-aos-delay="200">
+            <div class="projet-visual">
+                <div class="projet-image-wrapper">
+                     <img src="ad web.png" alt="Photo" class="parallax-image"> <div class="projet-gradient"></div>
+                </div>
+                <div class="projet-number">03</div>
+            </div>
+            
+            <div class="projet-content">
+                <div class="projet-meta">
+                    <span class="projet-category">Corporate</span>
+                    <span class="projet-year">2024</span>
+                </div>
+                
+                <h3 class="projet-title">AD SOLUTIONS</h3>
+                <p class="projet-excerpt">
+                    Site pour F.A.I avec gestion d'espace client, support technique intégré, etc.
+                    Permettre au client de gérer son abonnement, consulter ses factures, et contacter le support facilement.
+                </p>
+                
+               <div class="projet-results">
+                    <div class="result-item">
+                        <span class="result-value">+75%</span>
+                        <span class="result-label">Visiteurs</span>
+                    </div>
+                    <div class="result-item">
+                        <span class="result-value">3.1s</span>
+                        <span class="result-label">Chargement</span>
+                    </div>
+                    <div class="result-item">
+                        <span class="result-value">95/100</span>
+                        <span class="result-label">Performance</span>
+                    </div>
+                </div>
+                
+                <div class="projet-tech">
+                    <span class="tech-tag">WordPress Multisite</span>
+                    <span class="tech-tag">Gravity Forms</span>
+                    <span class="tech-tag">Elementor Pro</span>
+                    <span class="tech-tag">PHP</span>
+                </div>
+                
+                <a href="https://adsolutions.bj/" class="projet-cta">
+                    Visiter le site
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M7 17L17 7M17 7H7M17 7V17" stroke="currentColor" stroke-width="2"/>
+                    </svg>
+                </a>
+            </div>
+        </article>
+
+
+
+
+        <div class="github-project" data-aos="fade-up">
+    <div class="github-header">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+        </svg>
+        <h3>WordPress Modern Starter Theme</h3>
+        <span class="github-stars">⭐ 12 stars</span>
+    </div>
+    <p>Thème WordPress moderne avec Tailwind CSS, GSAP et ACF Pro pré-configurés pour un développement rapide.</p>
+    <div class="github-tech">
+        <span>PHP</span>
+        <span>Tailwind CSS</span>
+        <span>GSAP</span>
+        <span>ACF Pro</span>
+    </div>
+    <a href="https://github.com/C0de1O/MyPortfolio.git" target="_blank" class="btn-github">
+        Voir sur GitHub →
+    </a>
+</div>
+    </div>
+</section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-number">03.</span>
+                <h2 class="section-title">Travaillons ensemble</h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="contact-content reveal">
+                <p class="contact-intro">
+                    Vous avez un projet en tête ? Une idée à concrétiser ? 
+                    <br>Discutons-en autour d'un café ☕ (virtuel ou réel).
+                </p>
+
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <div class="contact-item magnetic">
+                            <div class="contact-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M3 8L10.89 13.26C11.5 13.67 12.5 13.67 13.11 13.26L21 8M5 19H19C20.1 19 21 18.1 21 17V7C21 5.9 20.1 5 19 5H5C3.9 5 3 5.9 3 7V17C3 18.1 3.9 19 5 19Z" stroke="currentColor" stroke-width="2"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4>Email</h4>
+                                <a href="mailto:dossouronaldoireti@email.com">dossouronaldoireti@email.com</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-item magnetic">
+                            <div class="contact-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M3 5C3 3.89543 3.89543 3 5 3H8.27924C8.70967 3 9.09181 3.27543 9.22792 3.68377L10.7257 8.17721C10.8831 8.64932 10.6694 9.16531 10.2243 9.38787L7.96701 10.5165C9.06925 12.9612 11.0388 14.9308 13.4835 16.033L14.6121 13.7757C14.8347 13.3306 15.3507 13.1169 15.8228 13.2743L20.3162 14.7721C20.7246 14.9082 21 15.2903 21 15.7208V19C21 20.1046 20.1046 21 19 21H18C9.71573 21 3 14.2843 3 6V5Z" stroke="currentColor" stroke-width="2"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4>Téléphone</h4>
+                                <a href="tel:+2290152107074">+229 01 52 10 70 74 / 01 41 23 79 95</a>
+                            </div>
+                        </div>
+
+                        <div class="social-links">
+                            <a href="https://www.linkedin.com/in/ronaldo-dossou-66b998264 " class="social-link magnetic">
+                                <span>LinkedIn</span>
+                            </a>
+                            <a href="https://github.com/C0de1O/MyPortfolio.git" class="social-link magnetic">
+                                <span>GitHub</span>
+                            </a>
+                            <a href="#" class="social-link magnetic">
+                                <span>X</span>
+                            </a>
+                        </div>
+                    </div>
+
+                   <form id="contactForm" class="contact-form">
+    <div class="form-group">
+      <input type="text" id="name" placeholder=" ">
+      <label for="name">Votre nom (optionnel)</label>
+    </div>
+    <div class="form-group">
+      <input type="email" id="email" placeholder=" ">
+      <label for="email">Votre email (optionnel)</label>
+    </div>
+    <div class="form-group">
+      <textarea id="message" rows="5" placeholder=" "></textarea>
+      <label for="message">Votre message (optionnel)</label>
+    </div>
+    <button type="submit" class="btn-submit">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+      </svg>
+      <span>Discuter sur WhatsApp Maintenant</span>
+    </button>
+  </form>
+</div>
+
+<!-- ✅ Notification qui apparaît avant la redirection -->
+<div id="toast" class="toast">
+  <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+  </svg>
+  <div class="toast-text">
+    <strong>Redirection en cours...</strong><br>
+    Contactez-moi directement sur WhatsApp 📲
+  </div>
+</div>
+
+<script>
+  // ✅ Numéro WhatsApp au format international (sans le +, sans espaces)
+  const phoneNumber = '2290152107074';
+
+  document.getElementById('contactForm').addEventListener('submit', function (e) {
+    e.preventDefault();
+
+    // Récupération facultative des champs
+    const name = document.getElementById('name').value.trim();
+    const email = document.getElementById('email').value.trim();
+    const message = document.getElementById('message').value.trim();
+
+    // Construction du message pré-rempli (avec de vrais sauts de ligne \n)
+    let text = "Bonjour 👋, je vous contacte depuis votre site web.";
+    if (name || email || message) {
+      text = "Bonjour 👋, je vous contacte depuis votre site web.\n\n";
+      if (name)    text += `Nom : ${name}\n`;
+      if (email)   text += `Email : ${email}\n`;
+      if (message) text += `Message : ${message}\n`;
+    }
+
+    const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(text)}`;
+
+    // 1️⃣ Affiche la notification
+    const toast = document.getElementById('toast');
+    toast.classList.add('show');
+
+    // 2️⃣ Redirige vers WhatsApp après une courte pause (pour voir la notif)
+    setTimeout(() => {
+      window.open(whatsappUrl, '_blank');
+    }, 1200);
+
+    // 3️⃣ Cache la notification après 4s
+    setTimeout(() => {
+      toast.classList.remove('show');
+    }, 4000);
+  });
+</script>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Ronaldo Dossou. Conçu & développé avec ❤️</p>
+                <a href="#home" class="back-to-top magnetic">
+                    <span>Retour en haut</span>
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M10 15V5M10 5L5 10M10 5L15 10" stroke="currentColor" stroke-width="2"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- SCRIPTS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="script.js"></script>
+    
+</body>
+</html><!-- Script pour envoyer sur WhatsApp -->
+   
